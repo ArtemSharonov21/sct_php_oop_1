@@ -1,0 +1,16 @@
+<?php
+
+class User {
+    public $lastname, $firstname, $email, $age;
+}
+
+$user = new User();
+
+$user->lastname = 'Шаронов';
+$user->firstname = 'Артем';
+$user->email = 'a.sharonov.01@mail.ru';
+$user->age = '21';
+
+echo 'Пользователь: ' . $user->lastname . ' ' . $user->firstname . '<br>';
+echo 'Email: ' . $user->email . '<br>';
+echo 'Возраст: ' . $user->age;
